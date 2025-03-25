@@ -1,0 +1,127 @@
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, sans-serif;
+    /* background-color: #f0f2f5; */
+    background-image: url('./Images/loginimage2.jpg.png');
+    background-size: cover;
+    /* background-position: center; */
+    /* background-repeat: no-repeat; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.log-container{
+    /* background-color:#ddc6d5; */
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(243, 241, 241, 0.1);
+    padding: 40px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+.log-container h2{
+    font-size: 24px;
+    color: white;
+    margin-bottom: 20px;
+}
+.input{
+    margin-bottom: 15px;
+    text-align: left;
+}
+.input label{
+    display: block;
+    font-size: 14px;
+    color: whitesmoke;
+    margin-bottom: 5px;
+}
+.input input{
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+button{
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 50px;
+}
+button:hover{
+    background-color: #0056b3;
+}
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+  }
+.remember{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: 14px;
+    color:whitesmoke;
+}
+.remember input[type="checkbox"]{
+    width: 16px;
+    height: 16px;
+    margin-left: 8px;
+
+}
+.remember label{
+    cursor: pointer;
+    font-weight: normal;
+    color: whitesmoke;
+    transition: color 0.2s ease-in-out;
+}
+.remember label:hover{
+    color: #007bff;
+}
+.remember label[for="forget"]{
+    margin-left: 70px;
+    font-style: italic;
+}
+.input-wrapper {
+    position: relative;
+  }
+  
+  .input-wrapper i {
+    position: absolute;
+    left: 10px; /* Position the icon inside the input field */
+    top: 50%;
+    transform: translateY(-50%);
+    color: #888; /* Icon color */
+    /* margin-right: 10px; */
+
+  }
+  .input-wrapper input {
+    width: 100%;
+    padding-left: 35px; /* Add space for the icon */
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .input-wrapper input:focus {
+    border-color: #007bff; /* Change border color on focus */
+    outline: none;
+  }
+
